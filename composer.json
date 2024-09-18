@@ -1,0 +1,53 @@
+{
+    "name": "nina/php",
+    "type": "project",
+    "description": "A framework built by Nina.",
+    "keywords": ["nina", "framework"],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/Core/functions.php",
+            "src/Helpers/functions.php"
+        ],
+        "psr-4": {
+            "NINA\\": "src/",
+            "NINA\\Core\\": "src/Core/",
+            "NINA\\Facade\\": "src/Facade/",
+            "NINA\\Traits\\": "src/Traits/",
+            "NINA\\Database\\": "src/Core/Database/",
+            "NINA\\Helpers\\": "src/Helpers/",
+            "NINA\\Controllers\\": "src/Controllers/",
+            "NINA\\Models\\": "src/Models/",
+            "NINA\\Middlewares\\": "src/Middlewares/",
+            "Pecee\\": "src/Core/Pecee/",
+            "NINAPermission\\": "src/NINAPermission/",
+            "NINA\\Cart\\": "src/Cart/",
+            "NINA\\NINAGateway\\":"src/NINAGateway/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "symfony/var-dumper": "^7.0",
+        "illuminate/http": "^11.0",
+        "jenssegers/agent": "^2.6",
+        "illuminate/container": "^11.1",
+        "illuminate/filesystem": "^11.3",
+        "intervention/image": "^3.5",
+        "phpmailer/phpmailer": "^6.9",
+        "league/omnipay": "^3.2",
+        "league/commonmark": "^2.4",
+        "league/flysystem": "^3.28",
+        "phpoption/phpoption": "^1.9",
+        "vlucas/phpdotenv": "^5.6",
+        "illuminate/events": "^11.13",
+        "phpoffice/phpspreadsheet": "2.1.0"
+    },
+    "require-dev": {
+        "spatie/ignition": "^1.13"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

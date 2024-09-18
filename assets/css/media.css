@@ -1,0 +1,64 @@
+@media (max-width:1200px){
+	.menu ul li a{font-size:15px}
+	.name-gt{font-size:30px}
+	.item_tt h3 a{font-size:16px;line-height:24px}
+}
+@media (max-width:1001px){
+	.title-main span{font-size:20px;text-align:center;display:block;}
+	button#ftwp-trigger{display:none!important}
+	#hamburger{display:block}
+	.header,.menu-head{display:none!important}
+	.cart-mobi{font-size:23px;color:#6CBF2F}
+	.cart-mobi .sss{font-size:16px}
+	.header{padding:10px 0px}
+	.flex-product-main{display:block}
+	.flex-product-main .left-product{position:fixed;z-index:999;top:0px;left:0px;transform:translateX(-250px);bottom:0px;overflow-x:hidden;background:#fff;box-shadow:0px 0px 5px #000;transition:all 0.5s}
+	.flex-product-main .left-product.show{transform:translateX(0px)}
+	.flex-product-main .right-product{width:100%}
+	.grid-product{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+	.filter{display:block}
+	.menu_mobi_add{display:block}
+	.menu_mobi{display:flex}
+	.menu{display:none}
+	.search{margin-left:20px;margin-top:10px}
+	.footer__logo,.footer__info,.footer__baiviet,.footer__fanpage,.left_gthieu,.right_gthieu{width:100%}
+	.footer__info,.footer__fanpage,.right_gthieu{margin-top:20px}
+	.left_gthieu{display:table;margin:auto;overflow:hidden}
+	.noidung_gthieu{margin-left:0}
+	.grid-news{grid-template-columns:1fr 1fr;grid-gap:20px}
+}
+@media (max-width:992px){
+	.xtatca{padding:6px 18px;font-size:14px}
+	.banner-sale{display:none}
+	.box-visao{width:48%}
+	.grid-container{grid-template-rows:1fr 1fr}
+	.newsletter-wrap{padding:40px 20px}
+}
+@media (max-width:769px){
+	.text-cart{display:none}
+	.grid-pro-detail{display:block}
+	.grid-pro-detail .left-pro-detail{width:100%;padding:0px;border-right:none}
+	.slick_photo1{text-align:center}
+	.grid-pro-detail .right-pro-detail{width:100%}
+	.grid-product{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+	.noidung_gthieu{padding:30px 20px}
+	.tde-gt{font-size:30px}
+	.title-main h2,.name-gt{font-size:25px}
+	.footer__title,.title-company,.name-vsao{font-size:15px}
+	.left_form,.right_form{width:100%}
+	.fanpage__title{font-size:20px}
+}
+@media (max-width:609px){
+	.grid-news{grid-gap:20px 10px}
+	.newsletter-wrap{padding:40px 0px}
+	.mxh{width:100%;margin-top:15px}
+	.grid-container{gap:5px 5px}
+	.item_tt h3 a{font-size:15px;line-height:22px}
+}
+@media (max-width:460px){
+	.noidung_gthieu{padding:30px 10px}
+	.policy__list > li{width:100%;padding-right:0px!important;border-bottom:1px solid #f1f1f1!important}
+	.title-company,.name-vsao{font-size:14px}
+}
+@media (max-width:369px){
+}

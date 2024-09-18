@@ -1,0 +1,10 @@
+<?php if(!empty($productAjax)): ?>
+ <div class="grid-product">
+ <?php $__currentLoopData = $productAjax; $this->addLoop($__currentLoopData);$this->getFirstLoop();
+ foreach($__currentLoopData as $v): $loop = $this->incrementLoopIndices();  ?>
+ <?php  $this->startComponent('component.itemProduct', ['product' => $v]); ?>
+ <?php echo $this->renderComponent(); ?>
+ <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>
+ </div>
+<?php endif; ?>
+<?php echo $productAjax->appends(request()->query())->links('pagination.pagin-ajax'); ?>
