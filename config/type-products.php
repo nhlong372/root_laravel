@@ -30,18 +30,18 @@ return [
                 'height' => '650',
                 'thumb' => '680x650x1'
             ],
-            'attachment' => [
-                'title' => 'File đại diện',
-                'width' => '400',
-                'height' => '450',
-                'thumb' => '200x200x1'
-            ],
-            'video-attachment' => [
-                'title' => 'Video đại diện',
-                'width' => '400',
-                'height' => '450',
-                'thumb' => '200x200x1'
-            ]
+            // 'attachment' => [
+            //     'title' => 'File đại diện',
+            //     'width' => '400',
+            //     'height' => '450',
+            //     'thumb' => '200x200x1'
+            // ],
+            // 'video-attachment' => [
+            //     'title' => 'Video đại diện',
+            //     'width' => '400',
+            //     'height' => '450',
+            //     'thumb' => '200x200x1'
+            // ]
         ],
         'show_images' => true,
         'gallery' => [
@@ -61,7 +61,7 @@ return [
         'view' => true,
         'comment' => false,
         'properties' => false,
-        'properties_json' => true,
+        'properties_json' => false,
         'code' => true,
         'regular_price' => true,
         'sale_price' => false,
@@ -84,14 +84,14 @@ return [
         'categories' => [
             'list' => [
                 'title_main_categories' => "Danh mục cấp 1",
-                'images' => [
-                    'photo' => [
-                        'title' => 'Ảnh đại diện',
-                        'width' => '300',
-                        'height' => '300',
-                        'thumb' => '300x300x1'
-                    ]
-                ],
+                // 'images' => [
+                //     'photo' => [
+                //         'title' => 'Ảnh đại diện',
+                //         'width' => '300',
+                //         'height' => '300',
+                //         'thumb' => '300x300x1'
+                //     ]
+                // ],
                 'copy_categories' => false,
                 'show_images_categories' => false,
                 'slug_categories' => true,
@@ -106,48 +106,20 @@ return [
             ],
             'cat' => [
                 'title_main_categories' => "Danh mục cấp 2",
-                'images' => [
-                    'photo' => [
-                        'title' => 'Ảnh đại diện',
-                        'width' => '500',
-                        'height' => '500',
-                        'thumb' => '500x500x1'
-                    ],
-                    'icon' => [
-                        'title' => 'Ảnh đại diện',
-                        'width' => '25',
-                        'height' => '25',
-                        'thumb' => '25x25x1'
-                    ]
-                ],
-                'copy_categories' => false,
-                'show_images_categories' => false,
-                'slug_categories' => true,
-                'status_categories' => ["menu" => "Menu", "noibat" => "Nổi bật", "hienthi" => "Hiển thị"],
-                'gallery_categories' => [],
-                'name_categories' => true,
-                'desc_categories' => true,
-                'desc_categories_cke' => false,
-                'content_categories' => false,
-                'content_categories_cke' => false,
-                'seo_categories' => true,
-            ],
-            'item' => [
-                'title_main_categories' => "Danh mục cấp 3",
-                'images' => [
-                    'photo' => [
-                        'title' => 'Ảnh đại diện',
-                        'width' => '500',
-                        'height' => '500',
-                        'thumb' => '500x500x1'
-                    ],
-                    'icon' => [
-                        'title' => 'Ảnh đại diện',
-                        'width' => '25',
-                        'height' => '25',
-                        'thumb' => '25x25x1'
-                    ]
-                ],
+                // 'images' => [
+                //     'photo' => [
+                //         'title' => 'Ảnh đại diện',
+                //         'width' => '500',
+                //         'height' => '500',
+                //         'thumb' => '500x500x1'
+                //     ],
+                //     'icon' => [
+                //         'title' => 'Ảnh đại diện',
+                //         'width' => '25',
+                //         'height' => '25',
+                //         'thumb' => '25x25x1'
+                //     ]
+                // ],
                 'copy_categories' => false,
                 'show_images_categories' => false,
                 'slug_categories' => true,
@@ -159,7 +131,35 @@ return [
                 'content_categories' => false,
                 'content_categories_cke' => false,
                 'seo_categories' => true,
-            ]
+            ],
+            // 'item' => [
+            //     'title_main_categories' => "Danh mục cấp 3",
+            //     'images' => [
+            //         'photo' => [
+            //             'title' => 'Ảnh đại diện',
+            //             'width' => '500',
+            //             'height' => '500',
+            //             'thumb' => '500x500x1'
+            //         ],
+            //         'icon' => [
+            //             'title' => 'Ảnh đại diện',
+            //             'width' => '25',
+            //             'height' => '25',
+            //             'thumb' => '25x25x1'
+            //         ]
+            //     ],
+            //     'copy_categories' => false,
+            //     'show_images_categories' => false,
+            //     'slug_categories' => true,
+            //     'status_categories' => ["hienthi" => "Hiển thị"],
+            //     'gallery_categories' => [],
+            //     'name_categories' => true,
+            //     'desc_categories' => true,
+            //     'desc_categories_cke' => false,
+            //     'content_categories' => false,
+            //     'content_categories_cke' => false,
+            //     'seo_categories' => true,
+            // ]
         ]
     ]
 ];

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Sep 18, 2024 at 06:01 AM
+-- Generation Time: Sep 21, 2024 at 03:29 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.3.10
 
@@ -1318,7 +1318,9 @@ INSERT INTO `table_counter` (`id`, `tm`, `ip`, `created_at`, `updated_at`, `os`,
 (1094, 1726637490, '::1', NULL, NULL, 'windows', 'chrome', 'desktop'),
 (1095, 1726637490, '::1', NULL, NULL, 'windows', 'chrome', 'desktop'),
 (1096, 1726638982, '::1', NULL, NULL, 'windows', 'chrome', 'desktop'),
-(1097, 1726638982, '::1', NULL, NULL, 'windows', 'chrome', 'desktop');
+(1097, 1726638982, '::1', NULL, NULL, 'windows', 'chrome', 'desktop'),
+(1098, 1726888399, '::1', NULL, NULL, 'windows', 'opera', 'desktop'),
+(1099, 1726888934, '::1', NULL, NULL, 'windows', 'chrome', 'desktop');
 
 -- --------------------------------------------------------
 
@@ -2175,7 +2177,24 @@ INSERT INTO `table_gallery` (`id`, `id_parent`, `id_properties`, `photo`, `hash`
 (76, 19, NULL, '455058404338301400-1726069053.jpg', NULL, NULL, 0, NULL, NULL, 1, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-11 15:37:33', '2024-09-11 15:37:33'),
 (77, 19, NULL, '455058404338302400-1726069053.jpg', NULL, NULL, 0, NULL, NULL, 2, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-11 15:37:33', '2024-09-11 15:37:33'),
 (78, 19, NULL, '455058404338303400-1726069053.jpg', NULL, NULL, 0, NULL, NULL, 3, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-11 15:37:33', '2024-09-11 15:37:33'),
-(79, 19, NULL, '455058404338304400-1726069053.jpg', NULL, NULL, 0, NULL, NULL, 4, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-11 15:37:33', '2024-09-11 15:37:33');
+(79, 19, NULL, '455058404338304400-1726069053.jpg', NULL, NULL, 0, NULL, NULL, 4, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-11 15:37:33', '2024-09-11 15:37:33'),
+(80, 24, NULL, 'air-jordan-1-elevate-high-shoes-rkpnhr-2-1726889141.jpg', NULL, NULL, 0, NULL, NULL, 1, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:25:41', '2024-09-21 03:25:41'),
+(81, 24, NULL, 'air-jordan-1-elevate-high-shoes-rkpnhr-2-1726889141.png', NULL, NULL, 0, NULL, NULL, 2, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:25:41', '2024-09-21 03:25:41'),
+(82, 24, NULL, 'air-jordan-1-elevate-high-shoes-rkpnhr-3-1726889141.jpg', NULL, NULL, 0, NULL, NULL, 3, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:25:41', '2024-09-21 03:25:41'),
+(83, 24, NULL, 'air-jordan-1-elevate-high-shoes-rkpnhr-3-1726889141.png', NULL, NULL, 0, NULL, NULL, 4, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:25:41', '2024-09-21 03:25:41'),
+(84, 24, NULL, 'air-jordan-1-elevate-high-shoes-rkpnhr-4-1726889141.jpg', NULL, NULL, 0, NULL, NULL, 5, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:25:41', '2024-09-21 03:25:41'),
+(85, 24, NULL, 'air-jordan-1-elevate-high-shoes-rkpnhr-5-1726889141.jpg', NULL, NULL, 0, NULL, NULL, 6, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:25:41', '2024-09-21 03:25:41'),
+(86, 24, NULL, 'air-jordan-1-elevate-high-shoes-rkpnhr-1726889141.png', NULL, NULL, 0, NULL, NULL, 7, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:25:41', '2024-09-21 03:25:41'),
+(87, 31, NULL, '2b9ca6ef4-f32b-4956-8912-838c77889fd5900x-1726889288.jpg', NULL, NULL, 0, NULL, NULL, 1, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:08', '2024-09-21 03:28:08'),
+(88, 31, NULL, '2cffab82a-bd41-4d5b-88af-942c29bcf9ac900x-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 2, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(89, 31, NULL, '2-bd821fa1-dae5-460c-8269-5edc1a-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 3, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(90, 31, NULL, '35bffb687-7fb3-4d37-a34e-a89d78098e0f900x-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 4, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(91, 31, NULL, '35c99ddbc-6925-490a-82f5-5c49a2213f6b900x-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 5, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(92, 31, NULL, '3c253237a-b454-4b15-bfa1-b10c6a07fb45900x-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 6, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(93, 31, NULL, 'inh-do-choi-pop-mart-the-monsters-flip-with-me-vinyl-plush-doll-40cm-25fb887a169214738874ef7e44c67ef43master-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 7, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(94, 31, NULL, 'mo-hinh-pop-mart-labubu-time-to-chill-vinyl-plush-doll-66a867370cb4e-30072024110823-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 8, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(95, 31, NULL, 'sg-11134201-7rcco-lr9fqdpg3o42ab-1726889289.jpeg', NULL, NULL, 0, NULL, NULL, 9, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09'),
+(96, 31, NULL, 'the-monsters-flip-with-me-vinyl-plush-doll-2-1726889289.jpg', NULL, NULL, 0, NULL, NULL, 10, 'san-pham', 'san-pham', 'product', 'hienthi', 0, 0, '2024-09-21 03:28:09', '2024-09-21 03:28:09');
 
 -- --------------------------------------------------------
 
@@ -2658,13 +2677,6 @@ CREATE TABLE `table_orders` (
   `type` varchar(250) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `table_orders`
---
-
-INSERT INTO `table_orders` (`id`, `info_user`, `id_user`, `order_payment`, `temp_price`, `total_price`, `code`, `ship_price`, `order_status`, `requirements`, `notes`, `numb`, `order_detail`, `created_at`, `updated_at`, `type`) VALUES
-(17, '{\"fullname\":\"nina test\",\"phone\":\"0909000000\",\"email\":\"phuongpham0603.nina@gmail.com\",\"city\":\"50\",\"district\":\"551\",\"ward\":\"8697\",\"address\":\"nina test\"}', '0', '23', 2943000, 2943000, 'PZH5BFURA', '0', 1, 'nina test', NULL, '1', '{\"a8658a90e72090430fbcd979d2bf6c19\":{\"rowId\":\"a8658a90e72090430fbcd979d2bf6c19\",\"id\":9,\"name\":\"\\u00c1O CARDIGAN NAM LEN MILANO NAM XS\",\"qty\":3,\"price\":981000,\"weight\":0,\"options\":{\"properties\":[],\"code\":\"3af4416f230c872a6fcfd244d56870e5\",\"itemProduct\":{\"id\":9,\"id_list\":\"2\",\"id_item\":\"1\",\"id_cat\":\"1\",\"id_sub\":null,\"id_brand\":0,\"photo\":\"45505841458271260-1726036914.jpg\",\"icon\":null,\"options\":null,\"properties\":\"\",\"list_properties\":\"\",\"slugvi\":\"ao-cardigan-nam-len-milano-nam-xs\",\"slugen\":\"\",\"contenten\":null,\"contentvi\":\"&lt;p&gt;C\\u00f3 th\\u1ec3 d\\u1ec5 d\\u00e0ng gi\\u1eb7t n\\u00f3 trong m\\u00e1y gi\\u1eb7t \\u1edf nh\\u00e0. C\\u00f3 \\u0111\\u1ed9 c\\u1ee9ng v\\u00e0 \\u0111\\u1ed9 \\u0111\\u00e0n h\\u1ed3i v\\u1eeba ph\\u1ea3i gi\\u00fap d\\u1ec5 m\\u1eb7c.&lt;\\/p&gt;\\r\\n\\r\\n&lt;p&gt;C\\u00f3 th\\u1ec3 d\\u1ec5 d\\u00e0ng gi\\u1eb7t n\\u00f3 trong m\\u00e1y gi\\u1eb7t \\u1edf nh\\u00e0. C\\u00f3 \\u0111\\u1ed9 c\\u1ee9ng v\\u00e0 \\u0111\\u1ed9 \\u0111\\u00e0n h\\u1ed3i v\\u1eeba ph\\u1ea3i gi\\u00fap d\\u1ec5 m\\u1eb7c.&lt;\\/p&gt;\\r\\n\\r\\n&lt;p&gt;C\\u00f3 th\\u1ec3 d\\u1ec5 d\\u00e0ng gi\\u1eb7t n\\u00f3 trong m\\u00e1y gi\\u1eb7t \\u1edf nh\\u00e0. C\\u00f3 \\u0111\\u1ed9 c\\u1ee9ng v\\u00e0 \\u0111\\u1ed9 \\u0111\\u00e0n h\\u1ed3i v\\u1eeba ph\\u1ea3i gi\\u00fap d\\u1ec5 m\\u1eb7c.&lt;\\/p&gt;\\r\\n\\r\\n&lt;p&gt;C\\u00f3 th\\u1ec3 d\\u1ec5 d\\u00e0ng gi\\u1eb7t n\\u00f3 trong m\\u00e1y gi\\u1eb7t \\u1edf nh\\u00e0. C\\u00f3 \\u0111\\u1ed9 c\\u1ee9ng v\\u00e0 \\u0111\\u1ed9 \\u0111\\u00e0n h\\u1ed3i v\\u1eeba ph\\u1ea3i gi\\u00fap d\\u1ec5 m\\u1eb7c.&lt;\\/p&gt;\\r\\n\\r\\n&lt;p&gt;C\\u00f3 th\\u1ec3 d\\u1ec5 d\\u00e0ng gi\\u1eb7t n\\u00f3 trong m\\u00e1y gi\\u1eb7t \\u1edf nh\\u00e0. C\\u00f3 \\u0111\\u1ed9 c\\u1ee9ng v\\u00e0 \\u0111\\u1ed9 \\u0111\\u00e0n h\\u1ed3i v\\u1eeba ph\\u1ea3i gi\\u00fap d\\u1ec5 m\\u1eb7c.&lt;\\/p&gt;\\r\\n\\r\\n&lt;p&gt;C\\u00f3 th\\u1ec3 d\\u1ec5 d\\u00e0ng gi\\u1eb7t n\\u00f3 trong m\\u00e1y gi\\u1eb7t \\u1edf nh\\u00e0. C\\u00f3 \\u0111\\u1ed9 c\\u1ee9ng v\\u00e0 \\u0111\\u1ed9 \\u0111\\u00e0n h\\u1ed3i v\\u1eeba ph\\u1ea3i gi\\u00fap d\\u1ec5 m\\u1eb7c.&lt;\\/p&gt;\\r\\n\",\"parametervi\":null,\"parameteren\":null,\"descen\":null,\"descvi\":\"&lt;p&gt;C\\u00f3 th\\u1ec3 d\\u1ec5 d\\u00e0ng gi\\u1eb7t n\\u00f3 trong m\\u00e1y gi\\u1eb7t \\u1edf nh\\u00e0. C\\u00f3 \\u0111\\u1ed9 c\\u1ee9ng v\\u00e0 \\u0111\\u1ed9 \\u0111\\u00e0n h\\u1ed3i v\\u1eeba ph\\u1ea3i gi\\u00fap d\\u1ec5 m\\u1eb7c.&lt;\\/p&gt;\\r\\n\",\"incentivesvi\":null,\"incentivesen\":null,\"promotionvi\":null,\"promotionen\":null,\"nameen\":null,\"namevi\":\"\\u00c1O CARDIGAN NAM LEN MILANO NAM XS\",\"code\":\"4550584145827\",\"regular_price\":981000,\"discount\":0,\"sale_price\":0,\"numb\":1,\"status\":\"noibat,hienthi\",\"type\":\"san-pham\",\"date_created\":1726036914,\"created_at\":\"2024-09-11T06:41:54.000000Z\",\"updated_at\":\"2024-09-11T06:54:30.000000Z\",\"date_updated\":0,\"view\":4,\"photo2\":null,\"date_publish\":\"2024-09-11 13:41:54\"}},\"discount\":0,\"tax\":0,\"subtotal\":2943000}}', '2024-09-11 08:04:19', '2024-09-11 08:04:19', NULL);
-
 -- --------------------------------------------------------
 
 --
@@ -2911,7 +2923,18 @@ INSERT INTO `table_product` (`id`, `id_list`, `id_item`, `id_cat`, `id_sub`, `id
 (20, '2', NULL, '2', NULL, 0, '45505840433831260-1726069053-5935.jpg', NULL, NULL, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-20', NULL, NULL, NULL, NULL, NULL, NULL, '&lt;p&gt;Sản phẩm tối màu có thể bị chuyển màu do ma sát trong quá trình sử dụng hoặc tiếp xúc trong điều kiện ẩm ướt. Khi giặt nên giặt riêng với các đồ khác. ●Tỷ lệ che chắn tia cực tím trên 90%. ●Hiệu quả đã được xác nhận lên tới 10 lần giặt như đã nêu. ●Hiệu quả chống tia cực tím thay đổi tùy theo màu sắc và hoa văn của vải. Khi sử dụng ngoài trời trong thời gian dài, có thể khó có được khả năng chống tia cực tím.&lt;/p&gt;\r\n', NULL, NULL, NULL, NULL, NULL, 'ÁO THUN NỮ CROPTOP VẢI COOL TOUCH TAY NGẮN Nữ XS Trắng ngà-20', NULL, 0, 0, 0, 1, 'noibat,hienthi,banchay', 'san-pham', 1726069060, NULL, NULL, 0, 0, NULL, NULL),
 (21, '2', NULL, '2', NULL, 0, '45505840433831260-1726069053-4965.jpg', NULL, NULL, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-21', NULL, NULL, NULL, NULL, NULL, NULL, '&lt;p&gt;Sản phẩm tối màu có thể bị chuyển màu do ma sát trong quá trình sử dụng hoặc tiếp xúc trong điều kiện ẩm ướt. Khi giặt nên giặt riêng với các đồ khác. ●Tỷ lệ che chắn tia cực tím trên 90%. ●Hiệu quả đã được xác nhận lên tới 10 lần giặt như đã nêu. ●Hiệu quả chống tia cực tím thay đổi tùy theo màu sắc và hoa văn của vải. Khi sử dụng ngoài trời trong thời gian dài, có thể khó có được khả năng chống tia cực tím.&lt;/p&gt;\r\n', NULL, NULL, NULL, NULL, NULL, 'ÁO THUN NỮ CROPTOP VẢI COOL TOUCH TAY NGẮN Nữ XS Trắng ngà-21', NULL, 0, 0, 0, 1, 'noibat,hienthi,banchay', 'san-pham', 1726069065, NULL, NULL, 0, 0, NULL, NULL),
 (22, '2', NULL, '2', NULL, 0, '45505840433831260-1726069053-8949.jpg', NULL, NULL, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-22', NULL, NULL, NULL, NULL, NULL, NULL, '&lt;p&gt;Sản phẩm tối màu có thể bị chuyển màu do ma sát trong quá trình sử dụng hoặc tiếp xúc trong điều kiện ẩm ướt. Khi giặt nên giặt riêng với các đồ khác. ●Tỷ lệ che chắn tia cực tím trên 90%. ●Hiệu quả đã được xác nhận lên tới 10 lần giặt như đã nêu. ●Hiệu quả chống tia cực tím thay đổi tùy theo màu sắc và hoa văn của vải. Khi sử dụng ngoài trời trong thời gian dài, có thể khó có được khả năng chống tia cực tím.&lt;/p&gt;\r\n', NULL, NULL, NULL, NULL, NULL, 'ÁO THUN NỮ CROPTOP VẢI COOL TOUCH TAY NGẮN Nữ XS Trắng ngà-22', NULL, 0, 0, 0, 1, 'noibat,hienthi,banchay', 'san-pham', 1726069068, NULL, NULL, 0, 0, NULL, NULL),
-(23, '2', NULL, '2', NULL, 0, '45505840433831260-1726069053-7841.jpg', NULL, NULL, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-23', NULL, NULL, NULL, NULL, NULL, NULL, '&lt;p&gt;Sản phẩm tối màu có thể bị chuyển màu do ma sát trong quá trình sử dụng hoặc tiếp xúc trong điều kiện ẩm ướt. Khi giặt nên giặt riêng với các đồ khác. ●Tỷ lệ che chắn tia cực tím trên 90%. ●Hiệu quả đã được xác nhận lên tới 10 lần giặt như đã nêu. ●Hiệu quả chống tia cực tím thay đổi tùy theo màu sắc và hoa văn của vải. Khi sử dụng ngoài trời trong thời gian dài, có thể khó có được khả năng chống tia cực tím.&lt;/p&gt;\r\n', NULL, NULL, NULL, NULL, NULL, 'ÁO THUN NỮ CROPTOP VẢI COOL TOUCH TAY NGẮN Nữ XS Trắng ngà-23', NULL, 0, 0, 0, 1, 'noibat,hienthi,banchay', 'san-pham', 1726069071, NULL, NULL, 0, 0, NULL, NULL);
+(23, '2', NULL, '2', NULL, 0, '45505840433831260-1726069053-7841.jpg', NULL, NULL, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-23', NULL, NULL, NULL, NULL, NULL, NULL, '&lt;p&gt;Sản phẩm tối màu có thể bị chuyển màu do ma sát trong quá trình sử dụng hoặc tiếp xúc trong điều kiện ẩm ướt. Khi giặt nên giặt riêng với các đồ khác. ●Tỷ lệ che chắn tia cực tím trên 90%. ●Hiệu quả đã được xác nhận lên tới 10 lần giặt như đã nêu. ●Hiệu quả chống tia cực tím thay đổi tùy theo màu sắc và hoa văn của vải. Khi sử dụng ngoài trời trong thời gian dài, có thể khó có được khả năng chống tia cực tím.&lt;/p&gt;\r\n', NULL, NULL, NULL, NULL, NULL, 'ÁO THUN NỮ CROPTOP VẢI COOL TOUCH TAY NGẮN Nữ XS Trắng ngà-23', NULL, 0, 0, 0, 1, 'noibat,hienthi,banchay', 'san-pham', 1726069071, NULL, NULL, 0, 0, NULL, NULL),
+(24, '5', NULL, '0', NULL, 0, 'air-jordan-1-elevate-high-shoes-rkpnhr-1-1726889140.png', NULL, NULL, '', '', 'giay-slip-on-ultraboost', '', NULL, '', NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'Giày Slip On Ultraboost', 'SOUL-29', 40000000, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889140, '2024-09-21 03:25:40', '2024-09-21 03:25:41', 0, 0, NULL, '2024-09-21 03:25:39'),
+(25, '5', NULL, NULL, NULL, 0, 'air-jordan-1-elevate-high-shoes-rkpnhr-1-1726889140-6237.png', NULL, NULL, NULL, NULL, 'giay-slip-on-ultraboost-25', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Giày Slip On Ultraboost-25', NULL, 0, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889156, NULL, NULL, 0, 0, NULL, NULL),
+(26, '5', NULL, NULL, NULL, 0, 'air-jordan-1-elevate-high-shoes-rkpnhr-1-1726889140-2053.png', NULL, NULL, NULL, NULL, 'giay-slip-on-ultraboost-26', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Giày Slip On Ultraboost-26', NULL, 0, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889160, NULL, NULL, 0, 0, NULL, NULL),
+(27, '5', NULL, NULL, NULL, 0, 'air-jordan-1-elevate-high-shoes-rkpnhr-1-1726889140-2974.png', NULL, NULL, NULL, NULL, 'giay-slip-on-ultraboost-27', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Giày Slip On Ultraboost-27', NULL, 0, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889161, NULL, NULL, 0, 0, NULL, NULL),
+(28, '5', NULL, NULL, NULL, 0, 'air-jordan-1-elevate-high-shoes-rkpnhr-1-1726889140-8620.png', NULL, NULL, NULL, NULL, 'giay-slip-on-ultraboost-28', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Giày Slip On Ultraboost-28', NULL, 0, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889162, NULL, NULL, 0, 0, NULL, NULL),
+(29, '5', NULL, NULL, NULL, 0, 'air-jordan-1-elevate-high-shoes-rkpnhr-1-1726889140-8632.png', NULL, NULL, NULL, NULL, 'giay-slip-on-ultraboost-29', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Giày Slip On Ultraboost-29', NULL, 0, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889174, NULL, NULL, 0, 0, NULL, NULL),
+(30, '5', NULL, NULL, NULL, 0, 'air-jordan-1-elevate-high-shoes-rkpnhr-1-1726889140-8808.png', NULL, NULL, NULL, NULL, 'giay-slip-on-ultraboost-30', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Giày Slip On Ultraboost-30', NULL, 0, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889177, NULL, NULL, 0, 0, NULL, NULL),
+(31, '6', NULL, '0', NULL, 0, 'the-monsters-flip-with-me-vinyl-plush-doll-3-1726889288.jpg', NULL, NULL, '', '', 'labubu', '', NULL, '', NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'Labubu', 'Arttoy', 10000000, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889288, '2024-09-21 03:28:08', '2024-09-21 03:28:08', 0, 0, NULL, '2024-09-21 03:28:08'),
+(32, '6', NULL, NULL, NULL, 0, 'the-monsters-flip-with-me-vinyl-plush-doll-3-1726889288-2523.jpg', NULL, NULL, NULL, NULL, 'labubu-32', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Labubu-32', NULL, 0, 0, 0, 1, 'banchay,noibat,hienthi', 'san-pham', 1726889296, NULL, NULL, 0, 0, NULL, NULL),
+(34, '6', NULL, NULL, NULL, 0, 'the-monsters-flip-with-me-vinyl-plush-doll-3-1726889288-4363.jpg', NULL, NULL, NULL, NULL, 'labubu-33', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Labubu-33', NULL, 0, 0, 0, 1, 'hienthi,banchay,noibat', 'san-pham', 1726889310, NULL, NULL, 0, 0, NULL, NULL),
+(35, '6', NULL, NULL, NULL, 0, 'the-monsters-flip-with-me-vinyl-plush-doll-3-1726889288-1137.jpg', NULL, NULL, NULL, NULL, 'labubu-35', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Labubu-35', NULL, 0, 0, 0, 1, 'hienthi,noibat,banchay', 'san-pham', 1726889312, NULL, NULL, 0, 0, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -2983,7 +3006,9 @@ CREATE TABLE `table_product_cat` (
 
 INSERT INTO `table_product_cat` (`id`, `id_list`, `slugvi`, `slugen`, `contenten`, `contentvi`, `descen`, `descvi`, `nameen`, `namevi`, `photo`, `icon`, `options`, `numb`, `date_publish`, `status`, `type`, `date_created`, `date_updated`, `created_at`, `updated_at`) VALUES
 (1, 2, 'trang-phuc-nam', '', NULL, NULL, NULL, '', NULL, 'TRANG PHỤC NAM', NULL, NULL, NULL, 1, NULL, 'hienthi,menu,noibat', 'san-pham', 1726030467, 0, '2024-09-11 04:54:27', '2024-09-11 04:54:27'),
-(2, 2, 'trang-phuc-nu', '', NULL, NULL, NULL, '', NULL, 'TRANG PHỤC NỮ', NULL, NULL, NULL, 2, NULL, 'menu,noibat,hienthi', 'san-pham', 1726068992, 0, '2024-09-11 15:36:32', '2024-09-11 15:36:32');
+(2, 2, 'trang-phuc-nu', '', NULL, NULL, NULL, '', NULL, 'TRANG PHỤC NỮ', NULL, NULL, NULL, 2, NULL, 'menu,noibat,hienthi', 'san-pham', 1726068992, 0, '2024-09-11 15:36:32', '2024-09-11 15:36:32'),
+(3, 5, 'giay-dep-cho-nam', '', NULL, NULL, NULL, '', NULL, 'GIÀY DÉP CHO NAM', NULL, NULL, NULL, 3, NULL, 'menu,noibat,hienthi', 'san-pham', 1726888830, 0, '2024-09-21 03:20:30', '2024-09-21 03:20:30'),
+(4, 5, 'giay-dep-cho-nu', '', NULL, NULL, NULL, '', NULL, 'GIÀY DÉP CHO NỮ', NULL, NULL, NULL, 4, NULL, 'menu,noibat,hienthi', 'san-pham', 1726888849, 0, '2024-09-21 03:20:49', '2024-09-21 03:20:49');
 
 -- --------------------------------------------------------
 
@@ -3058,10 +3083,9 @@ CREATE TABLE `table_product_list` (
 --
 
 INSERT INTO `table_product_list` (`id`, `slugvi`, `slugen`, `contenten`, `contentvi`, `descen`, `descvi`, `nameen`, `namevi`, `photo`, `icon`, `options`, `numb`, `date_publish`, `status`, `type`, `date_created`, `date_updated`, `updated_at`, `created_at`, `id_brand`) VALUES
-(1, 'hang-gia-dung', '', NULL, NULL, NULL, '', NULL, 'HÀNG GIA DỤNG', NULL, NULL, NULL, 1, NULL, 'hienthi,noibat', 'san-pham', 1726030415, 0, '2024-09-11 04:53:35', '2024-09-11 04:53:35', NULL),
 (2, 'quan-ao', '', NULL, NULL, NULL, '', NULL, 'QUẦN ÁO', NULL, NULL, NULL, 1, NULL, 'hienthi,noibat', 'san-pham', 1726030424, 0, '2024-09-11 04:53:44', '2024-09-11 04:53:44', NULL),
-(3, 'do-dung-gia-dinh', '', NULL, NULL, NULL, '', NULL, 'ĐỒ DÙNG GIA ĐÌNH', NULL, NULL, NULL, 1, NULL, 'hienthi,noibat', 'san-pham', 1726030439, 0, '2024-09-11 04:53:59', '2024-09-11 04:53:59', NULL),
-(4, 'do-noi-that', '', NULL, NULL, NULL, '', NULL, 'ĐỒ NỘI THẤT', NULL, NULL, NULL, 1, NULL, 'hienthi,noibat', 'san-pham', 1726030446, 0, '2024-09-11 04:54:06', '2024-09-11 04:54:06', NULL);
+(6, 'do-choi-nghe-thuat', '', NULL, NULL, NULL, NULL, NULL, 'ĐỒ CHƠI NGHỆ THUẬT', NULL, NULL, NULL, 1, NULL, 'hienthi,noibat', 'san-pham', 1726889226, 0, '2024-09-21 03:27:06', '2024-09-21 03:27:06', NULL),
+(5, 'giay-dep', '', NULL, NULL, NULL, NULL, NULL, 'GIÀY DÉP', NULL, NULL, NULL, 1, NULL, 'hienthi,noibat', 'san-pham', 1726888805, 0, '2024-09-21 03:20:05', '2024-09-21 03:20:05', NULL);
 
 -- --------------------------------------------------------
 
@@ -3376,7 +3400,7 @@ INSERT INTO `table_seo` (`id`, `id_parent`, `com`, `act`, `type`, `titlevi`, `ke
 (63, 48, 'news', 'save', 'tin-tuc', 'Runner Tây Ninh vượt qua trầm cảm nhờ chạy bộ', 'Runner Tây Ninh vượt qua trầm cảm nhờ chạy bộ', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (458, 1, 'static', 'save', 'gioi-thieu', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', '{\"p\":\"webtowel-1726028799.jpg\",\"w\":1200,\"h\":740,\"m\":\"image\\/jpeg\"}'),
 (459, 31, 'news', 'save', 'tin-tuc', 'MUJI mở rộng hợp tác, sản xuất tại Việt Nam', 'MUJI mở rộng hợp tác, sản xuất tại Việt Nam', 'MUJI mở rộng hợp tác, sản xuất tại Việt Nam', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', '{\"p\":\"webtowel-1726029727.jpg\",\"w\":1200,\"h\":740,\"m\":\"image\\/jpeg\"}'),
-(450, 1, 'product-list', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
+(465, 4, 'product-cat', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (430, 2, 'news', 'save', 'chinh-sach', 'Chính Sách Đổi Trả', '', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (383, 328, 'product', 'save', 'san-pham', 'Sản phẩm test2', '', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', '{\"p\":\"anh-3d-thien-nhien-1724733002.jpeg\",\"w\":1280,\"h\":1280,\"m\":\"image\\/jpeg\"}'),
 (205, 24, 'product-list', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
@@ -3446,13 +3470,16 @@ INSERT INTO `table_seo` (`id`, `id_parent`, `com`, `act`, `type`, `titlevi`, `ke
 (434, 22, 'news', 'save', 'goc-bep', 'Cách Chế Biến Gỏi Khô Cá Lóc Ngon Chuẩn Vị Miền Tây', 'Cách Chế Biến Gỏi Khô Cá Lóc Ngon Chuẩn Vị Miền Tây', 'Gỏi khô cá lóc là một món ăn dân dã nhưng lại vô cùng hấp dẫn, đậm đà hương vị đặc trưng của miền Tây Nam Bộ. Với sự kết hợp hoàn hảo giữa vị ngọt tự nhiên của cá lóc khô..', NULL, NULL, NULL, '', NULL, 'Cách Chế Biến Gỏi Khô Cá Lóc Ngon Chuẩn Vị Miền Tây', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (460, 9, 'product', 'save', 'san-pham', 'ÁO CARDIGAN NAM LEN MILANO NAM XS', '', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', '{\"p\":\"45505841458271260-1726036914.jpg\",\"w\":1260,\"h\":1260,\"m\":\"image\\/jpeg\"}'),
 (451, 2, 'product-list', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
-(452, 3, 'product-list', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
-(453, 4, 'product-list', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
+(464, 3, 'product-cat', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
+(463, 5, 'product-list', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (454, 1, 'product-cat', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (455, 1, 'product-item', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (456, 1, 'product-sub', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
 (461, 2, 'product-cat', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
-(462, 19, 'product', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL);
+(462, 19, 'product', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
+(466, 24, 'product', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
+(467, 6, 'product-list', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL),
+(468, 31, 'product', 'save', 'san-pham', '', '', '', NULL, NULL, NULL, '', NULL, '', NULL, '{\"metaindex\":\"index\",\"metaorder\":\"\"}', NULL);
 
 -- --------------------------------------------------------
 
@@ -3663,10 +3690,10 @@ INSERT INTO `table_slug` (`id`, `id_parent`, `namevi`, `nameen`, `slugvi`, `slug
 (427, 32, NULL, NULL, 'muji-mo-rong-hop-tac-san-xuat-tai-viet-nam-32', NULL, 'news', 'save', 'tin-tuc', '\\NINA\\Models\\NewsModel', '\\NINA\\Controllers\\Web\\NewsController'),
 (428, 33, NULL, NULL, 'muji-mo-rong-hop-tac-san-xuat-tai-viet-nam-33', NULL, 'news', 'save', 'tin-tuc', '\\NINA\\Models\\NewsModel', '\\NINA\\Controllers\\Web\\NewsController'),
 (429, 34, NULL, NULL, 'muji-mo-rong-hop-tac-san-xuat-tai-viet-nam-34', NULL, 'news', 'save', 'tin-tuc', '\\NINA\\Models\\NewsModel', '\\NINA\\Controllers\\Web\\NewsController'),
-(430, 1, 'HÀNG GIA DỤNG', NULL, 'hang-gia-dung', NULL, 'product-list', 'save', 'san-pham', '\\NINA\\Models\\ProductListModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(457, 4, 'GIÀY DÉP CHO NỮ', NULL, 'giay-dep-cho-nu', NULL, 'product-cat', 'save', 'san-pham', '\\NINA\\Models\\ProductCatModel', '\\NINA\\Controllers\\Web\\ProductController'),
 (431, 2, 'QUẦN ÁO', NULL, 'quan-ao', NULL, 'product-list', 'save', 'san-pham', '\\NINA\\Models\\ProductListModel', '\\NINA\\Controllers\\Web\\ProductController'),
-(432, 3, 'ĐỒ DÙNG GIA ĐÌNH', NULL, 'do-dung-gia-dinh', NULL, 'product-list', 'save', 'san-pham', '\\NINA\\Models\\ProductListModel', '\\NINA\\Controllers\\Web\\ProductController'),
-(433, 4, 'ĐỒ NỘI THẤT', NULL, 'do-noi-that', NULL, 'product-list', 'save', 'san-pham', '\\NINA\\Models\\ProductListModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(456, 3, 'GIÀY DÉP CHO NAM', NULL, 'giay-dep-cho-nam', NULL, 'product-cat', 'save', 'san-pham', '\\NINA\\Models\\ProductCatModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(455, 5, 'GIÀY DÉP', NULL, 'giay-dep', NULL, 'product-list', 'save', 'san-pham', '\\NINA\\Models\\ProductListModel', '\\NINA\\Controllers\\Web\\ProductController'),
 (434, 1, 'TRANG PHỤC NAM', NULL, 'trang-phuc-nam', NULL, 'product-cat', 'save', 'san-pham', '\\NINA\\Models\\ProductCatModel', '\\NINA\\Controllers\\Web\\ProductController'),
 (435, 1, 'ÁO KHOÁC NAM', NULL, 'ao-khoac-nam', NULL, 'product-item', 'save', 'san-pham', '\\NINA\\Models\\ProductItemModel', '\\NINA\\Controllers\\Web\\ProductController'),
 (436, 1, 'ĐỒ DỆT KIM', NULL, 'do-det-kim', NULL, 'product-sub', 'save', 'san-pham', '\\NINA\\Models\\ProductSubModel', '\\NINA\\Controllers\\Web\\ProductController'),
@@ -3681,7 +3708,19 @@ INSERT INTO `table_slug` (`id`, `id_parent`, `namevi`, `nameen`, `slugvi`, `slug
 (451, 20, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-20', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
 (452, 21, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-21', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
 (453, 22, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-22', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
-(454, 23, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-23', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController');
+(454, 23, NULL, NULL, 'ao-thun-nu-croptop-vai-cool-touch-tay-ngan-nu-xs-trang-nga-23', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(458, 24, 'Giày Slip On Ultraboost', NULL, 'giay-slip-on-ultraboost', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(459, 25, NULL, NULL, 'giay-slip-on-ultraboost-25', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(460, 26, NULL, NULL, 'giay-slip-on-ultraboost-26', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(461, 27, NULL, NULL, 'giay-slip-on-ultraboost-27', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(462, 28, NULL, NULL, 'giay-slip-on-ultraboost-28', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(463, 29, NULL, NULL, 'giay-slip-on-ultraboost-29', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(464, 30, NULL, NULL, 'giay-slip-on-ultraboost-30', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(465, 6, 'ĐỒ CHƠI NGHỆ THUẬT', NULL, 'do-choi-nghe-thuat', NULL, 'product-list', 'save', 'san-pham', '\\NINA\\Models\\ProductListModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(466, 31, 'Labubu', NULL, 'labubu', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(467, 32, NULL, NULL, 'labubu-32', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(469, 34, NULL, NULL, 'labubu-33', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController'),
+(470, 35, NULL, NULL, 'labubu-35', NULL, 'product', 'save', 'san-pham', '\\NINA\\Models\\ProductModel', '\\NINA\\Controllers\\Web\\ProductController');
 
 -- --------------------------------------------------------
 
@@ -3797,7 +3836,7 @@ CREATE TABLE `table_user` (
 --
 
 INSERT INTO `table_user` (`id`, `id_permission`, `username`, `password`, `confirm_code`, `avatar`, `fullname`, `phone`, `email`, `address`, `gender`, `login_session`, `user_token`, `lastlogin`, `status`, `role`, `secret_key`, `birthday`, `numb`, `remember_token`) VALUES
-(1, 0, 'admin', '$2y$10$LgAy/If0zDAfbeID0A6fnOqaKiNBUfAIrAIXp5X50cOJ/wqlz8n5q', '', '1726634825messenger 2.png', 'Administrator Nguyễn', '0939513667', 'admin.nina@gmail.com', 'Số 7A Trần Liêm Sỉ, Phường 25, Quận Lâm Chung, Tỉnh Bình Thường', 1, 'd7632551f4f5c8d7ff73af206fbe5dcb', '5118e1402c9431b3b14a547aa67e2b3f', '1726635321', 'hienthi', 3, NULL, 1726160400, 1, '');
+(1, 0, 'admin', '$2y$10$LgAy/If0zDAfbeID0A6fnOqaKiNBUfAIrAIXp5X50cOJ/wqlz8n5q', '', '1726634825messenger 2.png', 'Administrator Nguyễn', '0939513667', 'admin.nina@gmail.com', 'Số 7A Trần Liêm Sỉ, Phường 25, Quận Lâm Chung, Tỉnh Bình Thường', 1, 'd7632551f4f5c8d7ff73af206fbe5dcb', '024955c480e1290c26bd5f0e1d0e34fe', '1726888929', 'hienthi', 3, NULL, 1726160400, 1, '');
 
 -- --------------------------------------------------------
 
@@ -3889,7 +3928,7 @@ CREATE TABLE `table_user_log` (
 --
 
 INSERT INTO `table_user_log` (`id`, `id_user`, `ip`, `timelog`, `user_agent`, `login_session`, `lastlogin`, `operation`, `device`, `updated_at`, `created_at`) VALUES
-(1, 1, '113.161.88.45', 1717124757, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'd7632551f4f5c8d7ff73af206fbe5dcb', '1726635321', 'login', 'desktop', '2024-09-18 04:55:22', '2024-05-31 03:05:57'),
+(1, 1, '113.161.88.45', 1717124757, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'd7632551f4f5c8d7ff73af206fbe5dcb', '1726888929', 'login', 'desktop', '2024-09-21 03:22:09', '2024-05-31 03:05:57'),
 (2, 1, '113.161.89.144', 1717129089, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-05-31 04:18:09', '2024-05-31 04:18:09'),
 (3, 1, '113.161.88.45', 1717129216, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-05-31 04:20:16', '2024-05-31 04:20:16'),
 (4, 1, '113.161.88.45', 1717207140, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', NULL, NULL, 'Login', 'desktop', '2024-06-01 01:59:00', '2024-06-01 01:59:00'),
@@ -4095,7 +4134,8 @@ INSERT INTO `table_user_log` (`id`, `id_user`, `ip`, `timelog`, `user_agent`, `l
 (204, 1, '::1', 1726633869, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-09-18 04:31:09', '2024-09-18 04:31:09'),
 (205, 1, '::1', 1726634651, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-09-18 04:44:11', '2024-09-18 04:44:11'),
 (206, 144, '::1', 1726634992, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-09-18 04:49:52', '2024-09-18 04:49:52'),
-(207, 1, '::1', 1726635321, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-09-18 04:55:21', '2024-09-18 04:55:21');
+(207, 1, '::1', 1726635321, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-09-18 04:55:21', '2024-09-18 04:55:21'),
+(208, 1, '::1', 1726888929, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', NULL, NULL, 'login', 'desktop', '2024-09-21 03:22:09', '2024-09-21 03:22:09');
 
 -- --------------------------------------------------------
 
@@ -4114,7 +4154,7 @@ CREATE TABLE `table_user_online` (
 --
 
 INSERT INTO `table_user_online` (`session`, `time`, `ip`) VALUES
-('3an4125kpkamlfcsvic80udspd', 1726638288, '::1');
+('271m6sj0lfa6hs5gpshb2gaj7q', 1726889066, '::1');
 
 -- --------------------------------------------------------
 
@@ -15252,7 +15292,7 @@ ALTER TABLE `table_contact`
 -- AUTO_INCREMENT for table `table_counter`
 --
 ALTER TABLE `table_counter`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1098;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1100;
 
 --
 -- AUTO_INCREMENT for table `table_district`
@@ -15276,7 +15316,7 @@ ALTER TABLE `table_extensions`
 -- AUTO_INCREMENT for table `table_gallery`
 --
 ALTER TABLE `table_gallery`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=80;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
 
 --
 -- AUTO_INCREMENT for table `table_lang`
@@ -15366,7 +15406,7 @@ ALTER TABLE `table_photo`
 -- AUTO_INCREMENT for table `table_product`
 --
 ALTER TABLE `table_product`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `table_product_brand`
@@ -15378,7 +15418,7 @@ ALTER TABLE `table_product_brand`
 -- AUTO_INCREMENT for table `table_product_cat`
 --
 ALTER TABLE `table_product_cat`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `table_product_item`
@@ -15390,7 +15430,7 @@ ALTER TABLE `table_product_item`
 -- AUTO_INCREMENT for table `table_product_list`
 --
 ALTER TABLE `table_product_list`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `table_product_properties`
@@ -15444,7 +15484,7 @@ ALTER TABLE `table_roles`
 -- AUTO_INCREMENT for table `table_seo`
 --
 ALTER TABLE `table_seo`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=463;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=469;
 
 --
 -- AUTO_INCREMENT for table `table_seopage`
@@ -15468,7 +15508,7 @@ ALTER TABLE `table_size`
 -- AUTO_INCREMENT for table `table_slug`
 --
 ALTER TABLE `table_slug`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=455;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=471;
 
 --
 -- AUTO_INCREMENT for table `table_static`
@@ -15498,7 +15538,7 @@ ALTER TABLE `table_user_limit`
 -- AUTO_INCREMENT for table `table_user_log`
 --
 ALTER TABLE `table_user_log`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=208;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=209;
 
 --
 -- AUTO_INCREMENT for table `table_ward`

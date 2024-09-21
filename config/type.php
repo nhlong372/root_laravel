@@ -73,34 +73,34 @@ return  [
         //     '302' => true
         // ]
     ],
-    'extensions' => [
-        'popup' => [
-            'title_main' => "Popup",
-            'images' => true,
-            'status' => ["hienthi" => "Hiển thị", "repeat" => "Lặp lại"],
-            'width' => 800,
-            'height' => 500,
-            'thumb' => '800x500x1',
-        ],
-        'hotline' => [
-            'title_main' => "Điện thoại",
-            'status' => ["hienthi" => "Hiển thị"],
-            'images' => true,
-            'width' => 35,
-            'height' => 35,
-            'thumb' => '35x35x1',
-        ],
-        'social' => [
-            'title_main' => "Tiện ích",
-            'status' => ["hienthi" => "Hiển thị"],
-            'images' => false,
-            'width' => 35,
-            'height' => 35,
-            'thumb' => '35x35x1',
-        ],
-    ],
+    // 'extensions' => [
+    //     'popup' => [
+    //         'title_main' => "Popup",
+    //         'images' => true,
+    //         'status' => ["hienthi" => "Hiển thị", "repeat" => "Lặp lại"],
+    //         'width' => 800,
+    //         'height' => 500,
+    //         'thumb' => '800x500x1',
+    //     ],
+    //     'hotline' => [
+    //         'title_main' => "Điện thoại",
+    //         'status' => ["hienthi" => "Hiển thị"],
+    //         'images' => true,
+    //         'width' => 35,
+    //         'height' => 35,
+    //         'thumb' => '35x35x1',
+    //     ],
+    //     'social' => [
+    //         'title_main' => "Tiện ích",
+    //         'status' => ["hienthi" => "Hiển thị"],
+    //         'images' => false,
+    //         'width' => 35,
+    //         'height' => 35,
+    //         'thumb' => '35x35x1',
+    //     ],
+    // ],
     'users' => [
-        'active' => true,
+        'active' => false,
         'admin' => true,
         'member' => true,
         'permission' => true,
@@ -119,13 +119,13 @@ return  [
             'sub_title' => 'Thêm bài viết'
         ]
     ],
-    'order' => [
-        'don-hang' => [
-            'title_main' => "Đơn hàng",
-            'excel' => false,
-            'search' => true,
-        ],
-    ],
+    // 'order' => [
+    //     'don-hang' => [
+    //         'title_main' => "Đơn hàng",
+    //         'excel' => false,
+    //         'search' => true,
+    //     ],
+    // ],
     // 'comment' => [
     //     'binh-luan' => [
     //         'title_main' => "Bình luận",

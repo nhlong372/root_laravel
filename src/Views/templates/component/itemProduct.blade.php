@@ -3,7 +3,8 @@
         <a class="scale-img img block aspect-[300/200]" href="{{ url('slugweb', ['slug' => $product['slugvi']]) }}"
             title="{{ $product['namevi'] }}">
             <img onerror="this.src='{{ thumbs('thumbs/480x450x1/assets/images/noimage.png') }}';"
-                src="{{ assets_photo('product', '480x450x1', $product['photo'], 'thumbs') }}" alt="{{ $product['namevi'] }}">
+                src="{{ assets_photo('product', '480x450x1', $product['photo'], 'thumbs') }}"
+                alt="{{ $product['namevi'] }}">
         </a>
     </div>
     <div class="info-product">
@@ -24,8 +25,12 @@
             @endif
         </p>
         <?php /*
-        <p class="price-product">Giá Sỉ: <a href="tel:<?= preg_replace('/[^0-9]/', '', $optSetting['hotline']); ?>">{{$optSetting['hotline']}}</a></p>
+                <p class="price-product">Giá Sỉ: <a href="tel:<?= preg_replace('/[^0-9]/', '', $optSetting['hotline']); ?>
+        ?>">{{ $optSetting['hotline'] }}</a></p>
         */ ?>
-        <span class="cart-add addcart2 addnow" data-id="<?=$product['id']?>" data-action="addnow"><i class="fa-sharp fa-solid fa-cart-shopping"></i><?=__('web.themvaogiohang')?></span>
+        @if (!empty($configType->order))
+            <span class="cart-add addcart2 addnow" data-id="<?= $product['id'] ?>" data-action="addnow"><i
+                    class="fa-sharp fa-solid fa-cart-shopping"></i><?= __('web.themvaogiohang') ?></span>
+        @endif
     </div>
 </div>

@@ -59,7 +59,7 @@
                             <a class="text-dark text-break">{{ $v['namevi'] }}</a>
                             <div class="tool-action mt-2 w-clear">
                                 @component('component.buttonAction',['config'=>$configMan->categories->cat,'slug'=>$v['slugvi'],'params'=>['id'=>$v['id'],'id_list'=>$v['id_list']]])
-                                    @if (!empty($configMan->categories->cat->copy))
+                                    @if (!empty($configMan->categories->cat->copy_categories))
                                         <div class="dropdown">
                                             <a id="dropdownCopy" data-url="{{ url('copy') }}" data-id="{{ $v['id'] }}" data-table="product_cat" data-com="{{ $com }}" data-type="{{ $type }}" class="nav-link text-success mr-3"><i class="ti ti-copy"></i>Copy</a>
                                         </div>

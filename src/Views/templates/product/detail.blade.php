@@ -79,17 +79,19 @@
                             </div>
                         </li>
                     </ul>
-                    <div class="cart-pro-detail">
-                        <div class="attr-content-pro-detail d-block">
-                            <div class="quantity-pro-detail">
-                                <span class="quantity-minus-pro-detail">-</span>
-                                <input type="text" class="qty-pro !outline-none !shadow-none !ring-0" min="1"
-                                     value="1" readonly="">
-                                <span class="quantity-plus-pro-detail">+</span>
+                    @if (!empty($configType->order))
+                        <div class="cart-pro-detail">
+                            <div class="attr-content-pro-detail d-block">
+                                <div class="quantity-pro-detail">
+                                    <span class="quantity-minus-pro-detail">-</span>
+                                    <input type="text" class="qty-pro !outline-none !shadow-none !ring-0" min="1"
+                                        value="1" readonly="">
+                                    <span class="quantity-plus-pro-detail">+</span>
+                                </div>
                             </div>
+                            <a class="transition addcart text-decoration-none addnow" data-id="{{ $rowDetail['id'] }}" data-action="addnow"><?=__('web.themvaogiohang')?></a>
                         </div>
-                        <a class="transition addcart text-decoration-none addnow" data-id="{{ $rowDetail['id'] }}" data-action="addnow"><?=__('web.themvaogiohang')?></a>
-                    </div>
+                    @endif
                     <?php /*
                     <div class="cart-pro-detail">
                         <a class="transition flex-1 addcart text-decoration-none buynow" data-id="{{ $rowDetail['id'] }}"
